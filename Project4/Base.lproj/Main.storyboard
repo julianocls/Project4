@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -43,7 +44,22 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wjG-Qr-hZZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1852.1739130434785" y="65.625"/>
+            <point key="canvasLocation" x="1410" y="19"/>
+        </scene>
+        <!--Web Browser View Controller-->
+        <scene sceneID="B0v-aA-1kl">
+            <objects>
+                <viewController storyboardIdentifier="WebBrowser" id="bsT-x4-QJf" customClass="WebBrowserViewController" customModule="Project4" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oAb-RG-5JC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="D2F-jB-NIr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zU6-fL-3aB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2097" y="19"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="O4e-c4-qjP">
@@ -61,7 +77,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JO3-r6-5vB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="942.02898550724649" y="65.625"/>
+            <point key="canvasLocation" x="687" y="19"/>
         </scene>
     </scenes>
     <resources>
